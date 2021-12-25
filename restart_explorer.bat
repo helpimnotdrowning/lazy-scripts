@@ -3,8 +3,8 @@
 :: tried to load too many thumbnails, or when it freezes for NO apparent
 :: reason... you get the point.
 
-:: Takes: Nothing.
-:: Ex.  : C:\...> restart_explorer
+:: Arguments: None
+:: Ex.      : C:\...> restart_explorer
 
 @ECHO off
 SETLOCAL
