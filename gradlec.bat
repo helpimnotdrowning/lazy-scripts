@@ -3,8 +3,8 @@
 :: obvious (which it probably wasn't), this is *made* for Minecraft modding,
 :: but should work with any gradle project.
 
-:: Takes: Nothing.
-:: Ex.  : C:\...> gradlec
+:: Arguments: Nothing.
+:: Ex.      : C:\...> gradlec
 
 @ECHO off
 SETLOCAL

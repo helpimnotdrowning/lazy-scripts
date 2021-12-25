@@ -3,8 +3,8 @@
 :: probably wasn't), this is *made* for Minecraft modding, but should work with
 :: any gradle project.
 
-:: Takes: A link to a Git repository.
-:: Ex.  : C:\...> gitgradlec https://github.com/FabricMC/fabric
+:: Arguments: A link to a Git repository.
+:: Ex.      : C:\...> gitgradlec https://github.com/FabricMC/fabric
 
 @ECHO off
 SETLOCAL
