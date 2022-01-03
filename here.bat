@@ -4,4 +4,6 @@
 :: Ex.      : C:\...> here
 
 @ECHO off
+SETLOCAL
+
 EXPLORER .

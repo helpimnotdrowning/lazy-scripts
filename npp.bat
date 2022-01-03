@@ -5,4 +5,6 @@
 :: Ex.      : W:\ISO> npp ./DefinitelyAnUbuntuISO/README.txt ./DefinitelyAnUbuntuISO/UbuntuISO.cue
 
 @ECHO off
+SETLOCAL
+
 START "Opening: Notepad++" "C:\Program Files\Notepad++\notepad++.exe" %*
