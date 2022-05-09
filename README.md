@@ -42,7 +42,7 @@ The name comes from "**w**inget **i**n**s**tall"
 ## [WRM](wrm.bat)
 Remove a package using WinGet
 
-The name comes from "**w**inget uninstall (but instead it's **rm**)"
+The name comes from "**w**inget uninstall (but instead it's **rm**)"\
 Pronounced "worm".
 
 ## [WSE](wse.bat)
