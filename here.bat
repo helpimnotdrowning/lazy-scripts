@@ -1,9 +1,8 @@
 :: Easily open the current directory in the Explorer.
 
 :: Arguments: None
-:: Ex.      : C:\...> here
+:: Ex.      : C:\...> HERE
 
 @ECHO off
-SETLOCAL
 
-EXPLORER .
+E .

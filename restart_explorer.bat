@@ -4,10 +4,9 @@
 :: reason... you get the point.
 
 :: Arguments: None
-:: Ex.      : C:\...> restart_explorer
+:: Ex.      : C:\...> RESTART_EXPLORER
 
 @ECHO off
-SETLOCAL
 
-TASKKILL /f /im explorer.exe
+PKILL explorer.exe
 START EXPLORER

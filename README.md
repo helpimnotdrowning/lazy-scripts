@@ -1,18 +1,56 @@
 # lazy-scripts
-A repository dedicated for scripts made to shave off a few characters or lop off a few seconds.
+A repository dedicated for scripts made to shave off a few characters or save a few seconds off of typing command(s)
 
-## [restart_explorer.bat](restart_explorer.bat)
-Restart Windows Explorer easily, useful when it freezes because I hovered over the `File>Open With` option for too long, or when it freezes because I tried to load too many thumbnails, or when it freezes for NO apparent reason... you get the point.
+## [CONN](conn.bat)
+Quickly write a file from console.
 
-Usage: `C:\...> restart_explorer`
+## [E](e.bat)
+Open a directory in explorer.
 
-## [gitgradlec.bat](gitgradlec.bat)
-Easily clone a git repo and build it using gradle. This also opens the build folder for quick access to jars. In case it wasn't obvious (which it probably wasn't), this is *made* for Minecraft modding, but should work with any gradle project.
+## [GITCL](gitcl.bat)
+Clone a git repo into the user directory.
 
-Usage: `C:\...> gitgradlec <git repo link>`\
-Ex. : `C:\...> gitgradlec https://github.com/FabricMC/fabric`
+## [GITGRADLEC](gitgradlec.bat)
+Clone and build a gradle project, will open build dir in explorer.
 
-## [gradlec.bat](gradlec.bat)
-Easily build a gradle project, assuming you're at the project root already. This also opens the build folder for quick access to jars. In case it wasn't obvious (which it probably wasn't), this is *made* for Minecraft modding, but should work with any gradle project.
+## [GRADLEC](gradlec.bat)
+Build a gradle project, will open build dir in explorer.
 
-Usage: `C:\...> gradlec`
+## [HERE](here.bat)
+Opens the current directory.
+
+## [N](n.bat)
+Open a single or (unlike just calling `notepad`) multiple files in notepad.
+
+## [NPP](npp.bat)
+Open a single or multiple files in Notepad++.
+
+## [PKILL](pkill.bat)
+Kill process(es) based on the executable name.
+
+## [RESTART_EXPLORER](restart_explorer.bat)
+Restart the Windoes explorer when it freezes up, or just if you feel like it.
+
+## [THAW](thaw.bat)
+Runs `pip install` over every line of a file in `pip freeze` format.
+
+## [WIS](wis.bat)
+Install a package using WinGet
+
+The name comes from "**w**inget **i**n**s**tall"
+
+## [WRM](wrm.bat)
+Remove a package using WinGet
+
+The name comes from "**w**inget uninstall (but instead it's **rm**)"
+Pronounced "worm".
+
+## [WSE](wse.bat)
+Search for a package using WinGet
+
+The name comes from "**w**inget **se**arch"
+
+## [WUP](wup.bat)
+Upgrade a package using WinGet
+
+The name comes from "**w**inget **up**grade"

@@ -4,10 +4,14 @@
 :: any gradle project.
 
 :: Arguments: A link to a Git repository.
-:: Ex.      : C:\...> gitgradlec https://github.com/FabricMC/fabric
+:: Ex.      : C:\...> GITGRADLEC https://github.com/FabricMC/fabric
 
 @ECHO off
 SETLOCAL
+
+:: without this line, running this from the Run box would clone the repo at
+:: the C: drive root
+CD %USERPROFILE%
 
 GIT clone %1
 

@@ -3,16 +3,15 @@
 :: obvious (which it probably wasn't), this is *made* for Minecraft modding,
 :: but should work with any gradle project.
 
-:: Arguments: Nothing.
-:: Ex.      : C:\...> gradlec
+:: Arguments: None
+:: Ex.      : C:\...> GRADLEC
 
 @ECHO off
-SETLOCAL
 
 :: I have to open the window first, if I put this after gradlew it doesn't even
 :: open. thanks, microsoft.
 MKDIR build\libs
 
-EXPLORER build\libs
+E "build\libs"
 
 GRADLEW build
