@@ -6,4 +6,4 @@
 
 @ECHO off
 
-START "C:\Program Files\Notepad++\notepad++.exe" %*
+CALL "C:\Program Files\Notepad++\notepad++.exe" %*

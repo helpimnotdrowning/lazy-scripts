@@ -11,7 +11,6 @@
 :: I have to open the window first, if I put this after gradlew it doesn't even
 :: open. thanks, microsoft.
 MKDIR build\libs
-
-E "build\libs"
+CALL E "build\libs"
 
 GRADLEW build
